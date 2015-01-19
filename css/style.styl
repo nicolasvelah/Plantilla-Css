@@ -1,0 +1,245 @@
+@import 'nib/vendor'
+
+vendor-prefixes = o ms moz webkit official
+
+body
+	font-family "Trebuchet MS", Arial, Helvetica, sans-serif !important
+	overflow-x hidden
+	.main
+		max-width 960px
+		margin 0 auto
+
+header
+	.top
+		background #018bb2
+		height 102px
+		.logo
+			padding 24px 0 0 57px
+		.call
+			color #fff
+			padding-top 30px
+			text-align right
+			float right
+			padding-right 2rem
+			margin 0
+	.slide
+		background #018bb2;
+		padding 0
+		margin 0
+		img
+			width 100%
+	
+.intro
+	color #0084ae
+	margin-top 20px
+	float left
+	width 100%
+	padding 0 3rem
+	text-align justify
+	h2
+		text-align center
+		font-weight bold
+		font-size 46px
+		margin-top 0px
+
+.linea
+	display block
+	margin 30px auto
+	border-bottom 1px dashed #e2e2e2
+	width 325px
+
+section
+	float left
+	width 100%
+
+.info
+	max-width 410px
+	img
+		width 100%
+	.tit
+		width 305px
+		margin 0 auto
+		h3
+			color #008db0
+			float left
+			text-align center
+			margin 0 auto 10px
+			.icon
+				background url(../images/copaazul.gif) no-repeat center left
+				display block
+				float left 
+				width 22px
+				height 21px
+				margin-right 5px
+			.boat
+				text-align right
+				font-size 16px
+				display block
+				width 100%
+
+	
+.controllinea
+	float left
+	width 100%
+
+.item2
+	.tit
+		width 400px
+		h3
+			color #4c4b50 !important
+			.icon
+				background url(../images/copanegra.gif) no-repeat center left
+	.circulo
+		background #4c4b50 !important
+	.smalltext
+		color #4c4b50 !important
+
+.circulo
+	width 188px
+	height 188px
+	border-radius 50%
+	background #018bb2
+	color #fff
+	text-align center
+	display table
+	margin 0 auto -55px
+	position relative
+	.intcent
+		display table-cell
+		vertical-align middle
+		.st
+			width 100%
+			display block
+		.pp
+			width 100%
+			display block
+	.cost
+		font-size 50px
+
+.smalltext
+	font-size 11px
+	color #018bb2
+
+.booknow
+	float right
+	a
+		color #fff
+		font-weight bold
+		font-size 16px
+		background #ee951f url(../images/pelotaboton.png) no-repeat 87px center;
+		display block
+		padding 5px 35px 5px 10px
+		border-radius 5px
+		&:hover
+			background-color #018bb2
+			color #fff
+			text-decoration none
+
+.conditions
+	float left
+	text-align center
+	color #018bb2
+	font-size 12px
+	
+footer
+	background #018bb2
+	height 110px
+	text-align center
+	float left
+	width 100%
+	font-size 18px
+	color #fff
+	padding-top 30px
+	margin-top 20px
+	a
+		color #fff
+
+.itinerario
+	h4
+		color #0084ae
+		font-weight bold
+		padding-left 50px
+		font-size 20px
+	.row
+		margin-bottom 10px
+		border-bottom 1px solid #d3d3d3
+		padding-bottom 10px
+		display table
+		margin-right 10px
+		.conl1
+			color #505050
+			font-size 1.4rem
+			display table-cell
+			vertical-align middle
+			float none
+		.conl2
+			color #50acbb
+			border-right 1px solid #d3d3d3
+			border-left 1px solid #d3d3d3
+			display table-cell
+			vertical-align middle
+			float none
+			a
+				color #505050
+				font-weight bold
+		.conl3
+			color #50acbb
+			display table-cell
+			vertical-align middle
+			float none
+	.first
+		.conl2
+			border-right none
+
+.item2
+	.itinerario
+		h4
+			color #505050 !important
+		.row
+			.conl1
+				color #0084ae
+			.conl2
+				color #505050
+				a
+					color #0084ae
+			.conl3
+				color #505050
+			
+
+@media (max-width: 800px)
+	.tit
+		width auto !important
+	.boat
+		text-align center !important
+
+@media (min-width: 360px)
+	.call
+		font-size 12px
+		
+@media (max-width: 768px)
+	.info
+		float none !important
+		margin 0 auto !important
+	.item1
+		padding-bottom 20px !important
+		border-bottom 1px dashed #ddd
+	.item2
+		margin-top 20px !important
+
+
+@media (min-width: 768px)
+	.item1
+		margin-right 20px !important
+	section
+		padding 0 49px
+	.call
+		font-size 18px
+
+@media (min-width: 960px)
+	.item1
+		margin-right 52px !important
+	section
+		padding 0 49px
+	.call
+		font-size 23px
+
